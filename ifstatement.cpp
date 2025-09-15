@@ -12,7 +12,7 @@ int main()
     }
     else
     {
-        cout << "you are not under 18, age: " << age;
+        cout << "you are under 18, age: " << age;
     }
 
     return 0;
