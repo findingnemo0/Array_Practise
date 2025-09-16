@@ -1,5 +1,5 @@
-#include <bits/stdc++.h>
-using namespace std;
+#include <bits/stdc++.h>    // "<bits/stdc++.h>"contains all other libraries.
+using namespace std;       // to use cin and cout 
 
 int main()
 {
