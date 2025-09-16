@@ -1,12 +1,22 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+void pattern(int n)
+{
+    for (int i = 0; i < n; i++)
+    {
+        for (int j = 0; j < n; j++)
+        {
+            cout << "*";
+        }
+        cout << endl;
+    }
+}
+
 int main()
 {
-    int num;
-    cin >> num;
-    for (int i = 1; i <= num; i++)
-    {
-        cout << "value of i: " << i << endl;
-    }
+    int n;
+    cin >> n;
+    pattern(n);
+    return 0;
 }
